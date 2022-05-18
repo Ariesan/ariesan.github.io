@@ -1,0 +1,28 @@
+---
+layout: page
+permalink: /categories/
+background: '/img/bg-tag.jpg'
+title: Categories
+---
+
+
+<article id="post-preview">
+{% for category in site.categories %}
+  <div class="post-preview">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <hr/>
+    <!-- <p>Another test, for i don't know what is this</p> -->
+
+    <h4 class="post-meta">{{ category_name }}</h4>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="post-preview">
+      <h5 class="post-subtitle"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h5>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</article>
+
+

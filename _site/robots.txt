@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ariesan.github.io/sitemap.xml

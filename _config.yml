@@ -1,0 +1,28 @@
+title:              Ariesan
+email:              lovely.ariesan@gmail.com
+description:        Emak Belajar coding, 
+author:             Ariesan
+baseurl:            ""
+url:                ""
+
+# Social Profiles
+twitter_username:   ElisabethAnggia
+github_username:    ariesan
+facebook_username:  Anggia.iok23
+instagram_username: elisabeth_anggia
+linkedin_username:  Elisabeth Anggia Ariestyarini
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   G-7Q2VEED9RB # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           3
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  #- jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-seo-tag
+
+permalink: /:categories/:title/
