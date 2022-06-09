@@ -21,6 +21,12 @@
   
     <!--end of for SEO purpose-->
 
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+    <meta name="google-site-verification" content="6Tku4Xx3rhQNpxDn2fcKNC8C_Pf650RGe2j9Binjemk" />
+
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
