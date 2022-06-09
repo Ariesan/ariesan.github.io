@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "Lorem Ipsum Markdown"
-subtitle: "Wat to expect wen you write Lorem Ipsum wit Markdown"
+title: Lorem Ipsum Markdown
+subtitle: Wat to expect wen you write Lorem Ipsum wit Markdown
+description: Wat to expect wen you write Lorem Ipsum wit Markdown
 date: 2022-05-9 20:22:13 -0400
 background: '/img/posts/07.jpg'
 categories: [Personal, Project]
+permalink: /lorem-ipsum-markdown/
 ---
 
 # Manet haud est fer tum iussum sedet
-
-## Et vidi nullumque quosque
 
 Lorem markdownum deam draconum dixi *fetibus*. Toto venere, nam terras reditus
 videri obverterat latura vidisse plaga modo est cadet sprevit, deseruere corpus
 laeto. Agenorides gravi dexteriore hostem,
 [miseri](http://www.labareatria.org/), manes verba leve quod haec: cum dedit.
+
+## Et vidi nullumque quosque
 
 Mea ad, quicquid inpubesque terra me precor rector. Non **qua**, umeri ora ales
 dixit. Sacra corpore ex tibi iam vise: nubibus! Tellus affectibus sequuntur
