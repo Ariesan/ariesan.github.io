@@ -7,15 +7,8 @@ form: true
 ---
 
 <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-<form name="sentMessage" id="contactForm" action="https://formsubmit.co/lovely.ariesan@gmail.com" method="POST">
-    <!-- Honeypot -->
-    <input type="text" name="_honey" style="display:none">
+<form name="sentMessage" id="contactForm" action="https://formspree.io/f/xvoldykb" method="POST">
 
-    <!-- Disable Captcha -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://ariesan.github.io/contact-form/success.html" target="_blank" >
-  
-    
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Name</label>
@@ -34,7 +27,7 @@ form: true
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Message</label>
-      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+      <textarea name="message" rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
       <p class="help-block text-danger"></p>
     </div>
   </div>

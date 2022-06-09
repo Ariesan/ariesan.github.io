@@ -28,36 +28,40 @@ layout: default
       </div>      
     </div>
   </header>
+</header>
 
-<!-- display categories -->
-
-<div class="clearfix">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a class="btn btn-primary" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
-
-<!-- end of display categories -->
       
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
+
+<!-- display categories -->
+
+  <p class="post-meta"> Tags :
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+    <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+  </p>
+
+<!-- end of display categories -->
+
+
+
         {{ content }}
 
-        
+                
         {% include share-buttons.html %}
         
         <hr>
 
-        <div class="clearfix">
-
+      <div class="clearfix">        
           {% if page.previous.url %}
           <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
               Post</span></a>
@@ -66,9 +70,13 @@ layout: default
           <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
               Post</span> &rarr;</a>
           {% endif %}      
+
+          <!-- <a href="{{"/categories/project" | relative_url }}" class="btn btn-dark btn-sm">Project</a>
+          <a href="{{"/categories/coding" | relative_url }}" class="btn btn-primary">Coding</a>
+          <a href="{{"/categories/personal" | relative_url }}" class="btn btn-dark">Personal</a>
+          <a href="{{"/categories/homeschooling" | relative_url }}" class="btn btn-primary">Homeschooling</a> -->
       </div>
 
       </div>
     </div>
-    
   </div>

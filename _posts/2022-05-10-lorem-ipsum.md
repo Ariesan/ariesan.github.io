@@ -4,7 +4,7 @@ title: "Lorem Ipsum Markdown"
 subtitle: "Wat to expect wen you write Lorem Ipsum wit Markdown"
 date: 2022-05-9 20:22:13 -0400
 background: '/img/posts/07.jpg'
-categories: Personal
+categories: [Personal, Project]
 ---
 
 # Manet haud est fer tum iussum sedet

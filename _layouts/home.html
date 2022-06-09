@@ -22,16 +22,56 @@ layout: default
       </div>
     </div>
   </header>
+</header>
+
+
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      
+      <div class="card" style="width: 15rem; margin: 20px;">
+        <img src="/img/bg-tag.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Personal</h5>
+          <p class="card-text">Tulisan tentang kegiatan sehari-hari</p>
+          <a href="{{"/categories/personal" | relative_url }}" class="btn btn-primary">More</a>
+        </div>
+      </div>
+        
+      <div class="card" style="width: 15rem; margin: 20px;">
+        <img src="/img/bg-about.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Coding</h5>
+          <p class="card-text">Tulisan tentang teknologi dan belajar coding</p>
+          <a href="{{"/categories/coding" | relative_url }}" class="btn btn-primary">More</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 15rem; margin: 20px;">
+        <img src="/img/bg-contact.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Homeschooling</h5>
+          <p class="card-text">Tulisan tentang perjalanan keluarga Homeschooling</p>
+          <a href="{{"/categories/homeschooling" | relative_url }}" class="btn btn-primary">More</a>
+        </div>
+      </div>
 
-        {{ content }}
+      <div class="card" style="width: 15rem; margin: 20px;">
+        <img src="/img/bg-post.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Project</h5>
+          <p class="card-text">Kumpulan project yang pernah saya buat</p>
+          <a href="{{"/categories/project" | relative_url }}" class="btn btn-primary">More</a>
+        </div>
+      </div>
+
+        {{ content }}    
+      
+      <div class="col-lg-12 col-md-12 mx-auto">
 
         <!-- Home Post List -->
         {% for post in site.posts limit : 3 %}
-
+        
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>

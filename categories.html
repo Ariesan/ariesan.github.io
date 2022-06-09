@@ -1,8 +1,9 @@
 ---
 layout: page
+title: Categories
 permalink: /categories/
 background: '/img/bg-tag.jpg'
-title: Categories
+
 ---
 
 
@@ -11,17 +12,22 @@ title: Categories
   <div class="post-preview">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
-    <hr/>
+    <hr class="border-primary border-3 opacity-75"/>
     <!-- <p>Another test, for i don't know what is this</p> -->
 
     <h4 class="post-meta">{{ category_name }}</h4>
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
     <article class="post-preview">
-      <h5 class="post-subtitle"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h5>
+      <h5 class="post-preview"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h5>
     </article>
     {% endfor %}
   </div>
+  <br/>
+  <a class="btn btn-light" href="{{"/posts" | relative_url }}">blog</a>
+
+  <a class="btn btn-primary" href="{{"/home" | relative_url }}">home</a>
+
 {% endfor %}
 </article>
 

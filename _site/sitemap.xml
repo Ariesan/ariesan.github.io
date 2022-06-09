@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/personal/lorem-ipsum/</loc>
+      <loc>http://localhost:4000/personal/project/lorem-ipsum/</loc>
       
         <lastmod>2022-05-10T07:22:13+07:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/coding/man-must-explore/</loc>
+      <loc>http://localhost:4000/coding/project/man-must-explore/</loc>
       
         <lastmod>2020-01-31T21:45:13+07:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/personal/review/heartbeats/</loc>
+      <loc>http://localhost:4000/personal/homeschooling/heartbeats/</loc>
       
         <lastmod>2020-01-31T10:45:13+07:00</lastmod>
       
@@ -63,7 +63,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/coding/exploration/</loc>
+      <loc>http://localhost:4000/coding/project/personal/exploration/</loc>
       
         <lastmod>2020-01-29T10:45:13+07:00</lastmod>
       
@@ -78,7 +78,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/review/dreams/</loc>
+      <loc>http://localhost:4000/homeschooling/project/coding/personal/dreams/</loc>
       
         <lastmod>2020-01-28T10:45:13+07:00</lastmod>
       
@@ -112,7 +112,7 @@
       <url>
         <loc>http://localhost:4000/about/</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -129,7 +129,24 @@
       <url>
         <loc>http://localhost:4000/categories/</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>http://localhost:4000/categories/coding</loc>
+        
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -146,7 +163,24 @@
       <url>
         <loc>http://localhost:4000/contact/</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>http://localhost:4000/categories/homeschooling</loc>
+        
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -163,7 +197,7 @@
       <url>
         <loc>http://localhost:4000/posts/</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -180,7 +214,7 @@
       <url>
         <loc>http://localhost:4000/</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -197,7 +231,58 @@
       <url>
         <loc>http://localhost:4000/assets/main.css</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>http://localhost:4000/categories/personal</loc>
+        
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>http://localhost:4000/portfolio/</loc>
+        
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>http://localhost:4000/categories/project</loc>
+        
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -216,7 +301,7 @@
       <url>
         <loc>http://localhost:4000/feed.xml</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -233,7 +318,7 @@
       <url>
         <loc>http://localhost:4000/posts/page2/</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -250,7 +335,7 @@
       <url>
         <loc>http://localhost:4000/posts/page3/</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -267,7 +352,7 @@
       <url>
         <loc>http://localhost:4000/assets/main.css.map</loc>
         
-          <lastmod>2022-05-18T15:54:05+07:00</lastmod>
+          <lastmod>2022-06-09T14:41:07+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
