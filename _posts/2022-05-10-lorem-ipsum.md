@@ -3,10 +3,11 @@ layout: post
 title: Lorem Ipsum Markdown
 subtitle: Wat to expect wen you write Lorem Ipsum wit Markdown
 description: Wat to expect wen you write Lorem Ipsum wit Markdown
-date: 2022-05-9 20:22:13 -0400
+date: 2024-05-9 20:22:13 -0400
 background: '/img/posts/07.jpg'
 categories: [Personal, Project]
 permalink: /lorem-ipsum-markdown/
+comments_id: 1
 ---
 
 # Manet haud est fer tum iussum sedet
