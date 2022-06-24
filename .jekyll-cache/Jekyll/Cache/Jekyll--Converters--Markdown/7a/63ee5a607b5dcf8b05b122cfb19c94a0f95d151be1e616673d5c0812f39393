@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-24T22:07:03+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ariesan</title><subtitle>Emak Belajar coding</subtitle><author><name>Ariesan</name></author><entry xml:lang="id"><title type="html">Apasih Jekyll itu?</title><link href="http://localhost:4000/jekyll-adalah/" rel="alternate" type="text/html" title="Apasih Jekyll itu?" /><published>2022-06-24T03:00:00+07:00</published><updated>2022-06-24T03:00:00+07:00</updated><id>http://localhost:4000/Jekyll-adalah</id><content type="html" xml:base="http://localhost:4000/jekyll-adalah/"><![CDATA[<h1 id="apasih-jekyll-itu">Apasih Jekyll itu?</h1>
+I"	<h1 id="apasih-jekyll-itu">Apasih Jekyll itu?</h1>
 
 <p>Jekyll adalah salah satu cara, untuk kamu yang ingin pindah dari ribet nya perawatan di wordpress.</p>
 
@@ -28,4 +28,5 @@
 
 <p>Apa sih Github Pages itu? Secara simple, Github pages adalah salah satu feature yang ada di github, yang memungkinkan penggunanya untuk membuat website statis berdasarkan repositori di Github.</p>
 
-<p>Sampai disini dulu ya, penjelasan saya tentang Jekyll. Untuk artikel selanjutnya, saya akan membahas kelebihan dan kekurangan Jekyll.</p>]]></content><author><name>Ariesan</name></author><category term="Jekyll" /><category term="Github" /><summary type="html"><![CDATA[Jekyll adalah solusi untuk nge-Blog dengan simple]]></summary></entry></feed>
+<p>Sampai disini dulu ya, penjelasan saya tentang Jekyll. Untuk artikel selanjutnya, saya akan membahas kelebihan dan kekurangan Jekyll.</p>
+:ET

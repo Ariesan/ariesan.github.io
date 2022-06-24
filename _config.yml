@@ -1,9 +1,9 @@
-title:              Ariesan
+title:              Ariesan 
 email:              lovely.ariesan@gmail.com
 description:        Emak Belajar coding 
 author:             Ariesan
-baseurl:            ""
-url:                "https://ariesan.github.io/"
+baseurl:            
+url:                https://ariesan.github.io/
 
 # Social Profiles
 twitter_username:   ElisabethAnggia
@@ -18,14 +18,16 @@ google_analytics:   G-7Q2VEED9RB # out your google-analytics code
 # Build settings
 markdown:           kramdown
 paginate:           3
-paginate_path:      "/posts/page:num/"
+paginate_path:      /posts/page:num/
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap # Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  # jekyll-sitemap Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
   - jekyll-seo-tag
 
 permalink: /:title/
 
-
+default_lang: id-ID
+locale: id
+timezone: Asia/Jakarta
 
