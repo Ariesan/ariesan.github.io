@@ -25,7 +25,7 @@ plugins:
   # jekyll-sitemap Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
   - jekyll-seo-tag
 
-permalink: /:title/
+permalink: none
 
 default_lang: id-ID
 locale: id
