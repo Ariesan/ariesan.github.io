@@ -1,0 +1,29 @@
+I""<h1 id="perbedaan-git-dan-github">Perbedaan Git dan GitHub</h1>
+
+<p>Git dan GitHub adalah dua hal yang sama sekali berbeda.</p>
+
+<p>Saat pertama kali orang mendengar Git dan Github, asumsi yang muncul adalah mereka sama, padahal tidak. <strong>Kamu bisa menggunakan Git tanpa Github</strong>, namun kamu tidak bisa menggunakan GitHub tanpa Git__.</p>
+
+<h2 id="git">Git</h2>
+
+<p><strong>Git dan GitHub Tidak Sama !</strong></p>
+
+<p>Git adalah perangkat lunak yang berfungsi sebagai sistem kontrol, yang di bangun di tahun 2005 oleh Developer yang bekerja di OS Linux.</p>
+
+<p>Git ini proyek open-source, arinya kamu bisa gunakan secara gratis.</p>
+
+<p>Secara sederhana, Git adalah perangkat lunak yang bisa digunakan oleh pengembang, untuk membuat hidup kami lebih mudah dengan <strong>Sistem Kontrol</strong>, salah satu feature yang di sediakan oleh Git, yang membuat programmer bisa menyimpan, mengubah, dan memperbaiki program dengan sinkronisasi penuh pada lokal komputer.</p>
+
+<p>Kelebihan lain nya adalah bisa membuat programmer di seluruh dunia, bekerja di proyek dan sumber kode yang sama untuk saling memperbaiki dan memberi masukan secara langsung dan terkoneksi dengan lokal komputer masing-masing.</p>
+
+<p>Untuk membuat Git bekerja, kamu harus memiliki (install) Git di dalam komputer kamu.</p>
+
+<h2 id="github">GitHub</h2>
+
+<p>GitHub adalah perusahaan yang di temukan pada tahun 2008, sebagai layanan hosting yang di bisa di gunakan untuk menyimpan program dari Git.</p>
+
+<p>Kamu tidak perlu menggunakan GitHub untuk bisa menggunakan Git. Masih banyak alternatif lain pengganti GitHub, yang bisa digunakan untuk hosting program kamu, seperti : GitLab, BitBucket, Gogs, atau Gittea.</p>
+
+<p>Untuk menggunakan GitHub, kamu bisa menggunakan Terminal yang ada di komputer kamu atau Install GithGitHubub Desktop.</p>
+
+:ET

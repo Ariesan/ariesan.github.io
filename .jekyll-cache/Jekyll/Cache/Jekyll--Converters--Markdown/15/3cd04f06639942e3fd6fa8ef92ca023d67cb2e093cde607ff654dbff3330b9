@@ -1,0 +1,67 @@
+I"-<h1 id="kelebihan-dan-kekurangan-jekyll">Kelebihan dan Kekurangan Jekyll</h1>
+
+<p>Dalam dunia per-Blogging-an, kamu pasti sudah pernah mendengar tentang wordpress. Salah satu website generator yang paling banyak di gunakan oleh blogger ataupun perusahaan untuk membuat eksistensi di dunia maya.</p>
+
+<p>Namun, ada situasi dimana Wordpress dengan ruang lingkup yang sangat besar, menjadi tidak efektif bagi kebutuhan kita sebagai blogger yang hanya ingin menulis, tanpa perlu di pusingkan dengan perawatan, keamanan yang harus dilakukan secara berkala.</p>
+
+<p>Awalnya, saya menggunakan wordpress. Sebagai orang awam yang tidak mengerti dunia per-Code-an. Wordpress adalah solusi termudah untuk bisa membuat website kita menjadi rapih dan cantik.</p>
+
+<p>Namun, setelah website saya di ambil secara paksa oleh orang yang tidak bertanggung jawab, yang menyebabkan data di dalamnya hilang. Saya mulai mencari solusi lain yang lebih mudah di rawat dan ringan.</p>
+
+<p>Ketemulah saya dengan Jekyll ini. Dan langsung jatuh cinta dengan ke simple-an nya.</p>
+
+<p>Namun bukan berarti, Jekyll tidak memiliki Kekurangan.</p>
+
+<p>Nah, berdasarkan pengalaman saya membangun blog menggunakan Jekyll, saya akan menjelaskan kelebihan dan kekurangan Jekyll :</p>
+
+<h2 id="kelebihan-jekyll">Kelebihan Jekyll</h2>
+
+<ul>
+  <li>
+    <p>Jekyll tidak memerlukan perawatan data-base dan server.</p>
+  </li>
+  <li>
+    <p>Karena static website, Jekyll lebih sulit untuk di <em>hack</em> (kecuali ada orang yang mengetahui akun Github kamu).</p>
+  </li>
+  <li>
+    <p>Jekyll sangat ringan. Dengan kata lain, waktu yang di gunakan untuk membuka sebuah website, jadi lebih cepat.</p>
+  </li>
+  <li>
+    <p>Sudah ada pengaturan SEO.</p>
+  </li>
+  <li>
+    <p><strong>Gratis hosting</strong> di github.</p>
+  </li>
+  <li>
+    <p>Pemasangan dan pengaturan Custom Domain dapat dengan mudah dilakukan.</p>
+  </li>
+  <li>
+    <p>Tidak memerlukan update yang harus dilakukan secara berkala</p>
+  </li>
+  <li>
+    <p>Saat ingin menulis <em>blog post</em>, kita bebas untuk memilih, apakah menggunakan editor di lokal komputer atau langsung di github.</p>
+  </li>
+  <li>
+    <p>Data dapat dengan mudah untuk di <em>push</em> (dikirim) dari komputer ke github.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Jekyll does what you tell it to do — no more, no less. It doesn’t try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration. Put simply, Jekyll gets out of your way and allows you to concentrate on what truly matters: your content.</p>
+</blockquote>
+
+<h2 id="kekurangan-jekyll">Kekurangan Jekyll</h2>
+
+<ul>
+  <li>
+    <p>Tidak ada, aplikasi untuk edit gambar. Jadi, kita harus memastikan bahwa gambar yang ingin digunakan sudah sesuai resolusi-nya. Atau solusi lainnya kita bisa menggunakan SVG.</p>
+  </li>
+  <li>
+    <p>Postingan yang kita publish tidak bisa langsung terlihat, harus menunggu 5 - 10 menit.</p>
+  </li>
+  <li>
+    <p>Tidak bisa menggunakan feature comment atau contact form. Jadi, solusinya kita menggunakan pihak ketiga yang menyediakan layanan tersebut.</p>
+  </li>
+</ul>
+
+:ET

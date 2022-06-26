@@ -1,4 +1,247 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-24T22:07:03+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ariesan</title><subtitle>Emak Belajar coding</subtitle><author><name>Ariesan</name></author><entry xml:lang="id"><title type="html">Apasih Jekyll itu?</title><link href="http://localhost:4000/jekyll-adalah/" rel="alternate" type="text/html" title="Apasih Jekyll itu?" /><published>2022-06-24T03:00:00+07:00</published><updated>2022-06-24T03:00:00+07:00</updated><id>http://localhost:4000/Jekyll-adalah</id><content type="html" xml:base="http://localhost:4000/jekyll-adalah/"><![CDATA[<h1 id="apasih-jekyll-itu">Apasih Jekyll itu?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-26T15:17:38+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ariesan</title><subtitle>Emak Belajar coding</subtitle><author><name>Ariesan</name></author><entry xml:lang="id"><title type="html">Cara Install Git dan GitHub</title><link href="http://localhost:4000/cara-install-git/" rel="alternate" type="text/html" title="Cara Install Git dan GitHub" /><published>2022-06-25T22:00:00+07:00</published><updated>2022-06-25T22:00:00+07:00</updated><id>http://localhost:4000/cara-install-git</id><content type="html" xml:base="http://localhost:4000/cara-install-git/"><![CDATA[<h1 id="cara-install-git-dan-github">Cara Install Git dan GitHub</h1>
+<hr />
+
+<h2 id="cara-install-git-di-linux">Cara Install Git di Linux</h2>
+
+<h3 id="memperbaharui-sistem">Memperbaharui Sistem</h3>
+
+<p>Sebelum memulai proses instalasi, kita harus memastikan untuk memperbarui program yang sudah ada di dalam komputer, dengan menjalankan perintah ini di dalam Terminal</p>
+
+<p>Untuk membuka terminal kamu bisa menggunakan short-cut : CTRL+alt+T</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">sudo </span>apt update
+  <span class="nb">sudo </span>apt upgrade  
+</code></pre></div></div>
+
+<h3 id="instalasi-git">Instalasi Git</h3>
+
+<p>Kemungkinan besar, kamu sudah memiliki Git di dalam komputer kamu, namun untuk memastikan kita mempunyai Versi Git yang terbaru, jalankan perintah ini</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository ppa:git-core/ppa
+<span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt <span class="nb">install </span>git
+</code></pre></div></div>
+<h3 id="melihat-versi-git">Melihat Versi Git</h3>
+
+<p>Setelah semua berjalan, harusnya kamu sudah memiliki versi Git terbaru di dalam komputer. Untuk mengetahui versi Git yang ada di komputer kamu :</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nt">--version</span>
+</code></pre></div></div>
+
+<h2 id="menghubungkan-git">Menghubungkan Git</h2>
+
+<p>Untuk menggunakan Git dengan benar, kita harus memberitahukan pada Git siapa kita, Jadi Git bisa menghubungkan kita (melalui jaringan komputer) dengan GitHub.</p>
+
+<p>Perintah di bawah ini akan membuat Git bisa mengenal kita (local komputer).</p>
+
+<p>Pastikan kamu mengisi dengan nama pengguna dan email kamu yang sebenarnya.</p>
+
+<p>Nama Kamu dan Email yang di gunakan boleh beda dengan nama pengguna dan email yang kamu daftarkan saat membuat akun GitHub.</p>
+
+<p>Dan jangan hapus tanda kutipnya ya, karena itu di perlukan untuk menjalankan perintah.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"Nama Kamu"</span>
+git config <span class="nt">--global</span> user.email <span class="s2">"emailkamu@domain.com"</span>
+</code></pre></div></div>
+
+<p><strong>Update Terbaru</strong> : Git merubah nama cabang (branch) bawaan dalam repositori pembuatan baru, dari <em>Master</em> ke <strong>Main</strong></p>
+
+<p>Pastikan kamu memperbaharui nya juga, dengan menjalankan perintah ini</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> init.defaultBranch Main
+</code></pre></div></div>
+
+<p>Perintah di bawah ini, untuk tampilan terminal jadi menarik.
+Jadi nanti, saat kamu bekerja menggunakan Git di terminal, kamu akan melihat perintah dengan warna berbeda.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> color.ui auto
+</code></pre></div></div>
+
+<p>Periksa apakah semua proses sudah berjalan dengan benar, dengan menjalankan printah ini</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--get</span> user.name
+git config <span class="nt">--get</span> user.email
+</code></pre></div></div>
+
+<p>Jika hasil yang keluar di terminal sesuai dengan nama pengguna dan email kamu, artinya Git sudah mengenal komputer kamu.</p>
+
+<h2 id="cara-menghubungkan-git-dan-github">Cara Menghubungkan Git dan Github</h2>
+
+<h3 id="buat-akun-github">Buat akun Github</h3>
+
+<p>Buka <a href="https://github.com/">Github.com</a> dan buat akun baru, atau kamu bisa langsung masuk jika sudah memiliki akun.</p>
+
+<h3 id="membuat-ssh-key">Membuat SSH Key</h3>
+
+<p>SSH key adalah autentikasi ganda, ibaratnya tuh, seperti kunci yang hanya bisa dipakai oleh kamu saja. Karena enkripsinya menggunakan kriptografi membuat SSH key lebih sulit untuk bisa di eksploitasi.</p>
+
+<p>SSH key digunakan untuk mengotorisasi saat kamu ingin masuk ke sebuah server, dalam hal ini server GitHub ya, tanpa harus mengetikan password.</p>
+
+<p>SSH keys ini, akan membuat proses update repo ke GitHub menjadi lebih simple, karena kamu tidak perlu lagi, menuliskan nama pengguna dan password, setiap kamu ingin mengirimkan perubahan ke GitHub.</p>
+
+<p>Pertama, kamu lihat apakah kamu memiliki algoritma Ed25519 SSH key.</p>
+
+<p>Jalan kan perintah ini di terminal untuk memeriksa</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> ~/.ssh/id_ed25519.pub
+</code></pre></div></div>
+
+<p>Kalo terminal memberikan hasil “No such file or directory” berarti kamu belum punya.</p>
+
+<p>Klo sudah ada kamu bisa skip proses di bawah ini, dan langsung ke proses “Menghubungkan SSH Key dengan GitHub”</p>
+
+<p><strong>Perhatian !</strong></p>
+
+<p>Perintah -C yang di ikuti dengan alamat email kamu, harus di ikut sertakan, untuk memastikan GitHub mengetahui siapa kamu.</p>
+
+<p>Untuk membuat SSH key, kamu jalankan perintah ini :</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ssh-keygen <span class="nt">-t</span> ed25519 <span class="nt">-C</span> emailkamu@domain.com
+</code></pre></div></div>
+
+<p>Saat keluar permintaan di terminal, yang menanyakan lokasi yang ingin di gunakan untuk menyimpan, langsung tekan saja Enter.</p>
+
+<p>Selanjutnya, dia akan menanyakan password, masukan saja password pilihan kamu, tidak pake password juga bisa.</p>
+
+<h2 id="menghubungkan-ssh-key-dengan-github">Menghubungkan SSH Key dengan GitHub</h2>
+
+<p>Sekarang, kamu harus memberitahu GitHub SSH Key kamu. Jadi nanti, saat kamu melakukan <em>git push</em> kamu tidak perlu lagi input password.</p>
+
+<p>Pertama, masuk ke GitHub, klik tanda panah kecil yang ada di sebelah kanan foto profil kamu, lalu pilih <em>setting</em> (pengaturan).</p>
+
+<p>Setelah <em>setting</em> terbuka, lihat menu di sebelah kiri kamu, cari dan pilih <em>SSH and GPG keys</em></p>
+
+<p>Klik tombol hijau yang ada di sebelah kanan atas, yang bertuliskan “New SSH Key”. Beri nama biar kamu ingat, SSH Key untuk apa itu.</p>
+
+<p>Biarkan terbuka, saat kamu mengambil SSH key yang ada di komputer kamu, untuk di taruh di GitHub.</p>
+
+<p>Jalankan perintah ini</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> ~/.ssh/id_ed25519.pub
+</code></pre></div></div>
+<p>Copy file yang keluar di terminal kamu, di mulai dengan <strong>ssh-ed25519</strong> dan di akhiri dengan email kamu.</p>
+
+<p>Short-cut untuk meng-copy tulisan yang ada di terminal : CTRL+shift+C
+Dan untuk menempel (paste) : CTRL+shift+C</p>
+
+<p>Sekarang, balik lagi ke halaman GitHub yang tadi saya minta jangan di tutup, lalu tempel kode yang kamu dapat dari terminal ke kotak yang ada tulisan <strong>key</strong>.</p>
+
+<p>Lalu klik, <em>Add SSH key</em>.</p>
+
+<p>Yes! Kamu sudah berhasil menambahkan SSH key ke GitHub.</p>
+
+<h3 id="periksa-koneksi-ssh">Periksa koneksi SSH</h3>
+
+<p>Sekarang, kamu tinggal memastikan apakah komputer kamu sudah terhubung dengan GitHub atau tidak, dengan menjalankan perintah ini :</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh <span class="nt">-T</span> git@github.com
+</code></pre></div></div>
+
+<p>Kalo keluar hasil seperti gambar di bawah ini artinya kamu sudah berhasil</p>
+
+<p><img src="./img/post/ss-succeed.png" alt="ssh" /></p>
+
+<p>Selamat, sekarang kamu sudah bisa menggunakan Git dan GitHub di komputer kamu !</p>
+
+<h2 id="catatan">Catatan</h2>
+
+<p>Untuk tutorial cara install Git, saya mengikuti tutorial dari [The Odin Project] (https://www.theodinproject.com/lessons/foundations-setting-up-git)</p>
+
+<p>Kenapa saya menggunakan The Odin Project?</p>
+
+<p>Karena menurut saya, saat tulisan ini di buat (ditahun 2022) perintah konfigurasi Git lebih update dan mudah untuk di ikuti untuk orang awam.</p>
+
+<p>Dan karena saya sudah berhasil mencobanya sendiri.</p>]]></content><author><name>Ariesan</name></author><category term="Github" /><summary type="html"><![CDATA[Cara Install Git dan Github di komputer]]></summary></entry><entry xml:lang="id"><title type="html">Perbedaan Git dan GitHub</title><link href="http://localhost:4000/perbedaan-git-dan-github/" rel="alternate" type="text/html" title="Perbedaan Git dan GitHub" /><published>2022-06-25T21:00:00+07:00</published><updated>2022-06-25T21:00:00+07:00</updated><id>http://localhost:4000/perbedaan-git-dan-github</id><content type="html" xml:base="http://localhost:4000/perbedaan-git-dan-github/"><![CDATA[<h1 id="perbedaan-git-dan-github">Perbedaan Git dan GitHub</h1>
+
+<p>Git dan GitHub adalah dua hal yang sama sekali berbeda.</p>
+
+<p>Saat pertama kali orang mendengar Git dan Github, asumsi yang muncul adalah mereka sama, padahal tidak. <strong>Kamu bisa menggunakan Git tanpa Github</strong>, namun kamu tidak bisa menggunakan GitHub tanpa Git__.</p>
+
+<h2 id="git">Git</h2>
+
+<p><strong>Git dan GitHub Tidak Sama !</strong></p>
+
+<p>Git adalah perangkat lunak yang berfungsi sebagai sistem kontrol, yang di bangun di tahun 2005 oleh Developer yang bekerja di OS Linux.</p>
+
+<p>Git ini proyek open-source, arinya kamu bisa gunakan secara gratis.</p>
+
+<p>Secara sederhana, Git adalah perangkat lunak yang bisa digunakan oleh pengembang, untuk membuat hidup kami lebih mudah dengan <strong>Sistem Kontrol</strong>, salah satu feature yang di sediakan oleh Git, yang membuat programmer bisa menyimpan, mengubah, dan memperbaiki program dengan sinkronisasi penuh pada lokal komputer.</p>
+
+<p>Kelebihan lain nya adalah bisa membuat programmer di seluruh dunia, bekerja di proyek dan sumber kode yang sama untuk saling memperbaiki dan memberi masukan secara langsung dan terkoneksi dengan lokal komputer masing-masing.</p>
+
+<p>Untuk membuat Git bekerja, kamu harus memiliki (install) Git di dalam komputer kamu.</p>
+
+<h2 id="github">GitHub</h2>
+
+<p>GitHub adalah perusahaan yang di temukan pada tahun 2008, sebagai layanan hosting yang di bisa di gunakan untuk menyimpan program dari Git.</p>
+
+<p>Kamu tidak perlu menggunakan GitHub untuk bisa menggunakan Git. Masih banyak alternatif lain pengganti GitHub, yang bisa digunakan untuk hosting program kamu, seperti : GitLab, BitBucket, Gogs, atau Gittea.</p>
+
+<p>Untuk menggunakan GitHub, kamu bisa menggunakan Terminal yang ada di komputer kamu atau Install GithGitHubub Desktop.</p>]]></content><author><name>Ariesan</name></author><category term="Github" /><summary type="html"><![CDATA[Cara Install Git dan Github di komputer]]></summary></entry><entry xml:lang="id"><title type="html">Kelebihan dan Kekurangan Jekyll</title><link href="http://localhost:4000/kelebihan-dan-kekurangan-jekyll/" rel="alternate" type="text/html" title="Kelebihan dan Kekurangan Jekyll" /><published>2022-06-25T03:00:00+07:00</published><updated>2022-06-25T03:00:00+07:00</updated><id>http://localhost:4000/kelebihan-dan-kekurangan-jekyll</id><content type="html" xml:base="http://localhost:4000/kelebihan-dan-kekurangan-jekyll/"><![CDATA[<h1 id="kelebihan-dan-kekurangan-jekyll">Kelebihan dan Kekurangan Jekyll</h1>
+
+<p>Dalam dunia per-Blogging-an, kamu pasti sudah pernah mendengar tentang wordpress. Salah satu website generator yang paling banyak di gunakan oleh blogger ataupun perusahaan untuk membuat eksistensi di dunia maya.</p>
+
+<p>Namun, ada situasi dimana Wordpress dengan ruang lingkup yang sangat besar, menjadi tidak efektif bagi kebutuhan kita sebagai blogger yang hanya ingin menulis, tanpa perlu di pusingkan dengan perawatan, keamanan yang harus dilakukan secara berkala.</p>
+
+<p>Awalnya, saya menggunakan wordpress. Sebagai orang awam yang tidak mengerti dunia per-Code-an. Wordpress adalah solusi termudah untuk bisa membuat website kita menjadi rapih dan cantik.</p>
+
+<p>Namun, setelah website saya di ambil secara paksa oleh orang yang tidak bertanggung jawab, yang menyebabkan data di dalamnya hilang. Saya mulai mencari solusi lain yang lebih mudah di rawat dan ringan.</p>
+
+<p>Ketemulah saya dengan Jekyll ini. Dan langsung jatuh cinta dengan ke simple-an nya.</p>
+
+<p>Namun bukan berarti, Jekyll tidak memiliki Kekurangan.</p>
+
+<p>Nah, berdasarkan pengalaman saya membangun blog menggunakan Jekyll, saya akan menjelaskan kelebihan dan kekurangan Jekyll :</p>
+
+<h2 id="kelebihan-jekyll">Kelebihan Jekyll</h2>
+
+<ul>
+  <li>
+    <p>Jekyll tidak memerlukan perawatan data-base dan server.</p>
+  </li>
+  <li>
+    <p>Karena static website, Jekyll lebih sulit untuk di <em>hack</em> (kecuali ada orang yang mengetahui akun Github kamu).</p>
+  </li>
+  <li>
+    <p>Jekyll sangat ringan. Dengan kata lain, waktu yang di gunakan untuk membuka sebuah website, jadi lebih cepat.</p>
+  </li>
+  <li>
+    <p>Sudah ada pengaturan SEO.</p>
+  </li>
+  <li>
+    <p><strong>Gratis hosting</strong> di github.</p>
+  </li>
+  <li>
+    <p>Pemasangan dan pengaturan Custom Domain dapat dengan mudah dilakukan.</p>
+  </li>
+  <li>
+    <p>Tidak memerlukan update yang harus dilakukan secara berkala</p>
+  </li>
+  <li>
+    <p>Saat ingin menulis <em>blog post</em>, kita bebas untuk memilih, apakah menggunakan editor di lokal komputer atau langsung di github.</p>
+  </li>
+  <li>
+    <p>Data dapat dengan mudah untuk di <em>push</em> (dikirim) dari komputer ke github.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Jekyll does what you tell it to do — no more, no less. It doesn’t try to outsmart users by making bold assumptions, nor does it burden them with needless complexity and configuration. Put simply, Jekyll gets out of your way and allows you to concentrate on what truly matters: your content.</p>
+</blockquote>
+
+<h2 id="kekurangan-jekyll">Kekurangan Jekyll</h2>
+
+<ul>
+  <li>
+    <p>Tidak ada, aplikasi untuk edit gambar. Jadi, kita harus memastikan bahwa gambar yang ingin digunakan sudah sesuai resolusi-nya. Atau solusi lainnya kita bisa menggunakan SVG.</p>
+  </li>
+  <li>
+    <p>Postingan yang kita publish tidak bisa langsung terlihat, harus menunggu 5 - 10 menit.</p>
+  </li>
+  <li>
+    <p>Tidak bisa menggunakan feature comment atau contact form. Jadi, solusinya kita menggunakan pihak ketiga yang menyediakan layanan tersebut.</p>
+  </li>
+</ul>]]></content><author><name>Ariesan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Kelebihan Jekyll adalah sangat ringan dan mudah perawatannya]]></summary></entry><entry xml:lang="id"><title type="html">Apasih Jekyll itu?</title><link href="http://localhost:4000/jekyll-adalah/" rel="alternate" type="text/html" title="Apasih Jekyll itu?" /><published>2022-06-24T03:00:00+07:00</published><updated>2022-06-24T03:00:00+07:00</updated><id>http://localhost:4000/Jekyll-adalah</id><content type="html" xml:base="http://localhost:4000/jekyll-adalah/"><![CDATA[<h1 id="apasih-jekyll-itu">Apasih Jekyll itu?</h1>
 
 <p>Jekyll adalah salah satu cara, untuk kamu yang ingin pindah dari ribet nya perawatan di wordpress.</p>
 
