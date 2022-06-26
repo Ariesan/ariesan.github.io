@@ -52,7 +52,7 @@ layout: default
 
 <!-- end of display categories -->
 
-
+        {% include advertising.html %}
 
         {{ content }}
 
@@ -60,6 +60,8 @@ layout: default
         {% include share-buttons.html %}
         
         <hr>
+
+        {% include advertising.html %}
 
       <div class="clearfix">        
           {% if page.previous.url %}
@@ -71,9 +73,7 @@ layout: default
               Post</span> &rarr;</a>
           {% endif %} 
           
-          {% if page.comments_id %}
-            {% include comments.html issue_id=page.comments_id %}
-          {% endif %}
+          {% include advertising.html %}
 
       </div>
       </div>
