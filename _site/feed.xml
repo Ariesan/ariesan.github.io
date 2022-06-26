@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-26T15:17:38+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ariesan</title><subtitle>Emak Belajar coding</subtitle><author><name>Ariesan</name></author><entry xml:lang="id"><title type="html">Cara Install Git dan GitHub</title><link href="http://localhost:4000/cara-install-git/" rel="alternate" type="text/html" title="Cara Install Git dan GitHub" /><published>2022-06-25T22:00:00+07:00</published><updated>2022-06-25T22:00:00+07:00</updated><id>http://localhost:4000/cara-install-git</id><content type="html" xml:base="http://localhost:4000/cara-install-git/"><![CDATA[<h1 id="cara-install-git-dan-github">Cara Install Git dan GitHub</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-26T16:37:11+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ariesan</title><subtitle>Emak Belajar coding</subtitle><author><name>Ariesan</name></author><entry xml:lang="id"><title type="html">Cara Install Git dan GitHub</title><link href="http://localhost:4000/cara-install-git/" rel="alternate" type="text/html" title="Cara Install Git dan GitHub" /><published>2022-06-25T22:00:00+07:00</published><updated>2022-06-25T22:00:00+07:00</updated><id>http://localhost:4000/cara-install-git</id><content type="html" xml:base="http://localhost:4000/cara-install-git/"><![CDATA[<h1 id="cara-install-git-dan-github">Cara Install Git dan GitHub</h1>
 <hr />
 
 <h2 id="cara-install-git-di-linux">Cara Install Git di Linux</h2>
@@ -155,7 +155,7 @@ Dan untuk menempel (paste) : CTRL+shift+C</p>
 
 <p>Git dan GitHub adalah dua hal yang sama sekali berbeda.</p>
 
-<p>Saat pertama kali orang mendengar Git dan Github, asumsi yang muncul adalah mereka sama, padahal tidak. <strong>Kamu bisa menggunakan Git tanpa Github</strong>, namun kamu tidak bisa menggunakan GitHub tanpa Git__.</p>
+<p>Saat pertama kali orang mendengar Git dan Github, asumsi yang muncul adalah mereka sama, padahal tidak. <strong>Kamu bisa menggunakan Git tanpa Github</strong>, namun kamu tidak bisa menggunakan GitHub tanpa Git.</p>
 
 <h2 id="git">Git</h2>
 

@@ -14,7 +14,7 @@ lang: id
  
  Git dan GitHub adalah dua hal yang sama sekali berbeda. 
  
- Saat pertama kali orang mendengar Git dan Github, asumsi yang muncul adalah mereka sama, padahal tidak. __Kamu bisa menggunakan Git tanpa Github__, namun kamu tidak bisa menggunakan GitHub tanpa Git__.   
+ Saat pertama kali orang mendengar Git dan Github, asumsi yang muncul adalah mereka sama, padahal tidak. __Kamu bisa menggunakan Git tanpa Github__, namun kamu tidak bisa menggunakan GitHub tanpa Git.   
  
 ## Git 
   
