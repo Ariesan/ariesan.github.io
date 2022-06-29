@@ -5,7 +5,7 @@ subtitle: Jekyll adalah solusi untuk nge-Blog dengan simple
 description: Jekyll adalah solusi untuk nge-Blog dengan simple
 date: 2022-06-23 16:00:00 -0400
 background: '/img/posts/jekyll.png'
-categories: [Jekyll, Github]
+categories: [Jekyll, Github, Coding]
 permalink: /jekyll-adalah/
 lang: id
 ---

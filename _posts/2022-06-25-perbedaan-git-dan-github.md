@@ -5,7 +5,7 @@ subtitle: Git > sistem kontrol | Github > hosting gratis
 description: Cara Install Git dan Github di komputer
 date: 2022-06-25 10:00:00 -0400
 background: '/img/posts/01.jpg'
-categories: [Github]
+categories: [Github, Coding]
 permalink: /perbedaan-git-dan-github/
 lang: id
 ---

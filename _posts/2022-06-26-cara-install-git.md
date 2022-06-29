@@ -5,7 +5,7 @@ subtitle: OS Linux
 description: Cara Install Git dan Github di komputer
 date: 2022-06-25 11:00:00 -0400
 background: '/img/posts/03.jpg'
-categories: [Github]
+categories: [Github, Coding]
 permalink: /cara-install-git/
 lang: id
 ---
