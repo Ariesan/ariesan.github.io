@@ -8,6 +8,8 @@ background: '/img/posts/jekyll.png'
 categories: [Jekyll, Github, Coding]
 permalink: /jekyll-adalah/
 lang: id
+keyword: jekyll adalah, jekyll blog
+comments: true
 ---
 
 # Apasih Jekyll itu?
@@ -34,7 +36,7 @@ Dengan Jekyll, saya tidak perlu pusing mengurus backend karena sudah di sediakan
 
  Jekyll adalah perangkat lunak dalam bentuk website statis yang bisa digunakan untuk menulis blog, publish portfolio, atau project.
  
- Dan karena Jekyll adalah _open source project_, artinya kamu bisa gunakan secara __gratis__. Dari _hosting_ sampe _publish_. Bahkan kalo kamu gabungkan dengan software CMS, kamu bisa gunakan Jekyll tanpa perlu liat/tahu kode yang ada di dalamnya.  
+ Dan karena Jekyll adalah _open source project_, artinya kamu bisa gunakan secara __gratis__. Dari _hosting_ sampe _publish_. Bahkan saat kamu menggabungkan Jekyll dengan software CMS, kamu bisa menggunakan Jekyll tanpa perlu melihat kode yang ada di dalamnya.  
  
 Jekyll ditulis dalam bahasa pemrograman Ruby, di buat oleh Tom Perston Werner, dan di publikasi kan pada tahun 2008. Tau kan siapa Om Tom ini? Dia adalah  Co-Founder Github. Yep, benar sekali. [Github](https://github.com/) yang sangat terkenal di antara kita, para programmer, sebagai salah  satu cara untuk membuat version control atas program yang kita buat. Sayangnya om Tom keluar dari github di tahun 2014.
 
@@ -42,4 +44,4 @@ Jekyll adalah mesin yang ada di balik Github Pages.
 
 Apa sih Github Pages itu? Secara simple, Github pages adalah salah satu feature yang ada di github, yang memungkinkan penggunanya untuk membuat website statis berdasarkan repositori di Github.
 
-Sampai disini dulu ya, penjelasan saya tentang Jekyll. Untuk artikel selanjutnya, saya akan membahas kelebihan dan kekurangan Jekyll.
+Sampai disini dulu ya, penjelasan saya tentang Jekyll. Untuk artikel selanjutnya, saya akan membahas [kelebihan dan kekurangan Jekyll](https://ariesan.github.io/kelebihan-dan-kekurangan-jekyll/).

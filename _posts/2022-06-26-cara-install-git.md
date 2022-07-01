@@ -8,6 +8,8 @@ background: '/img/posts/03.jpg'
 categories: [Github, Coding]
 permalink: /cara-install-git/
 lang: id
+keywords: Cara Install Git dan GitHub, cara install git 
+comments: true
 ---
 
 # Cara Install Git dan GitHub
@@ -167,7 +169,7 @@ Kalo keluar hasil seperti gambar di bawah ini artinya kamu sudah berhasil
 
 ![ssh](./img/post/ss-succeed.png)
 
-Selamat, sekarang kamu sudah bisa menggunakan Git dan GitHub di komputer kamu !
+Selamat, sekarang kamu sudah bisa menggunakan [Git dan GitHub](https://ariesan.github.io/perbedaan-git-dan-github/) di komputer kamu !
 
 
 ## Catatan

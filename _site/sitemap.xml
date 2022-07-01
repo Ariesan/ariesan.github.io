@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/pengalaman-belajar-coding-dari-nol/</loc>
+      
+        <lastmod>2022-06-27T22:00:00+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/cara-install-git/</loc>
       
         <lastmod>2022-06-25T22:00:00+07:00</lastmod>
@@ -65,9 +80,9 @@
     
       
       <url>
-        <loc>http://localhost:4000/about/</loc>
+        <loc>http://localhost:4000/about.html</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -84,7 +99,7 @@
       <url>
         <loc>http://localhost:4000/categories/</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -101,7 +116,7 @@
       <url>
         <loc>http://localhost:4000/categories/coding</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -116,9 +131,9 @@
     
       
       <url>
-        <loc>http://localhost:4000/contact/</loc>
+        <loc>http://localhost:4000/contact.html</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -135,7 +150,7 @@
       <url>
         <loc>http://localhost:4000/categories/homeschooling</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -152,7 +167,7 @@
       <url>
         <loc>http://localhost:4000/posts/</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -169,7 +184,7 @@
       <url>
         <loc>http://localhost:4000/</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -186,7 +201,7 @@
       <url>
         <loc>http://localhost:4000/assets/main.css</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -203,7 +218,7 @@
       <url>
         <loc>http://localhost:4000/categories/personal</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -218,9 +233,9 @@
     
       
       <url>
-        <loc>http://localhost:4000/portfolio/</loc>
+        <loc>http://localhost:4000/portfolio.html</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -237,7 +252,7 @@
       <url>
         <loc>http://localhost:4000/categories/project</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -256,7 +271,7 @@
       <url>
         <loc>http://localhost:4000/feed.xml</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -273,7 +288,7 @@
       <url>
         <loc>http://localhost:4000/posts/page2/</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -290,7 +305,7 @@
       <url>
         <loc>http://localhost:4000/assets/main.css.map</loc>
         
-          <lastmod>2022-06-26T16:37:11+07:00</lastmod>
+          <lastmod>2022-07-01T14:20:28+07:00</lastmod>
         
         
           <changefreq>monthly</changefreq>

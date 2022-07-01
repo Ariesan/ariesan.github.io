@@ -1,0 +1,32 @@
+I"t	<h1 id="apasih-jekyll-itu">Apasih Jekyll itu?</h1>
+
+<p>Jekyll adalah salah satu cara, untuk kamu yang ingin pindah dari ribet nya perawatan di wordpress.</p>
+
+<h2 id="jekyll-adalah-solusi-untuk-nge-blog-dengan-mudah">Jekyll adalah solusi untuk nge-Blog dengan mudah</h2>
+
+<p>Kenapa aku bilang mudah, karena dengan Jekyll kamu ga perlu khawatir untuk update plugin setiap saat kamu buka admin panel.</p>
+
+<p>So, selamat datang di dunia blogging yang simple.</p>
+
+<p>Untuk saya pribadi, Jekyll adalah solusi dari permasalahan saya, yang membuat kesal dan malas nge-blog lagi.</p>
+
+<p>Yaitu, saat blog wordpress saya di <strong>hack</strong>, karena saya tidak mengerti tentang keamanan di dunia <strong>dynamic website</strong>.</p>
+
+<p>Dengan Jekyll, saya tidak perlu pusing mengurus backend karena sudah di sediakan oleh Jekyll. Dengan modal html, css, dan sedikit Javascipt. Blog saya sudah bisa live.</p>
+
+<h2 id="jekyll-adalah-software-bukan-si-dokter-jahat">Jekyll adalah software, bukan si dokter jahat!</h2>
+
+<p><img src="/img/posts/jekyll1.png" alt="Jekyll" /></p>
+
+<p>Jekyll adalah perangkat lunak dalam bentuk website statis yang bisa digunakan untuk menulis blog, publish portfolio, atau project.</p>
+
+<p>Dan karena Jekyll adalah <em>open source project</em>, artinya kamu bisa gunakan secara <strong>gratis</strong>. Dari <em>hosting</em> sampe <em>publish</em>. Bahkan saat kamu menggabungkan Jekyll dengan software CMS, kamu bisa menggunakan Jekyll tanpa perlu melihat kode yang ada di dalamnya.</p>
+
+<p>Jekyll ditulis dalam bahasa pemrograman Ruby, di buat oleh Tom Perston Werner, dan di publikasi kan pada tahun 2008. Tau kan siapa Om Tom ini? Dia adalah  Co-Founder Github. Yep, benar sekali. <a href="https://github.com/">Github</a> yang sangat terkenal di antara kita, para programmer, sebagai salah  satu cara untuk membuat version control atas program yang kita buat. Sayangnya om Tom keluar dari github di tahun 2014.</p>
+
+<p>Jekyll adalah mesin yang ada di balik Github Pages.</p>
+
+<p>Apa sih Github Pages itu? Secara simple, Github pages adalah salah satu feature yang ada di github, yang memungkinkan penggunanya untuk membuat website statis berdasarkan repositori di Github.</p>
+
+<p>Sampai disini dulu ya, penjelasan saya tentang Jekyll. Untuk artikel selanjutnya, saya akan membahas <a href="https://ariesan.github.io/kelebihan-dan-kekurangan-jekyll/">kelebihan dan kekurangan Jekyll</a>.</p>
+:ET

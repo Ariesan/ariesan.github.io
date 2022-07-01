@@ -8,6 +8,8 @@ background: '/img/posts/01.jpg'
 categories: [Github, Coding]
 permalink: /perbedaan-git-dan-github/
 lang: id
+keyword: perbedaan git dan GitHub, git adalah
+comments: true
 ---
 
 # Perbedaan Git dan GitHub
@@ -28,7 +30,7 @@ lang: id
   
   Kelebihan lain nya adalah bisa membuat programmer di seluruh dunia, bekerja di proyek dan sumber kode yang sama untuk saling memperbaiki dan memberi masukan secara langsung dan terkoneksi dengan lokal komputer masing-masing.
   
-  Untuk membuat Git bekerja, kamu harus memiliki (install) Git di dalam komputer kamu. 
+  Untuk membuat Git bekerja, kamu harus [memiliki Git](https://ariesan.github.io/cara-install-git/) di dalam komputer kamu. 
   
 ## GitHub
   

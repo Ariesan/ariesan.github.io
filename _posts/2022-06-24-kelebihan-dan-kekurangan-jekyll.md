@@ -5,10 +5,13 @@ subtitle: Tidak ada backend
 description: Kelebihan Jekyll adalah sangat ringan dan mudah perawatannya
 date: 2022-06-24 16:00:00 -0400
 background: '/img/posts/02.jpg'
-categories: [Jekyll]
+categories: [Jekyll, Coding]
 permalink: /kelebihan-dan-kekurangan-jekyll/
 lang: id
+keyword: Kelebihan dan Kekurangan Jekyll
+comments: true
 ---
+
 
 # Kelebihan dan Kekurangan Jekyll
 
