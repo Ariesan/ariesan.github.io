@@ -78,7 +78,7 @@ Dan kerennya, belajar Git termasuk dalam pelajaran pertama yang akan kamu dapatk
 
 Ini adalah [website pertama](https://github.com/Ariesan/odin-recipes) yang saya buat, setelah 2 minggu belajar di TOP. 
 
-<img src="/img/posts/odin-recipes.png" width="450" alt="website pertama">
+<img src="/img/posts/odin-recipes.png" width="300" alt="website pertama">
 
 [Kode](https://github.com/Ariesan/odin-recipes) 
 
@@ -89,7 +89,7 @@ Dan saat itu, saya bangga dengan hasil karya saya sendiri.
 
 Ini [website yang saya buat 7 bulan kemudian](https://ariesan.github.io/arnawi-farm/), untuk adik saya. Website sederhana menggunakan CSS Grid, tanpa template atau pun framework.
 
-<img src="/img/posts/arnawi-farm.png" width="450" alt="website arnawi farm">
+<img src="/img/posts/arnawi-farm.png" width="300" alt="website arnawi farm">
 
 [Kode](https://github.com/Ariesan/arnawi-farm)
 
@@ -99,7 +99,7 @@ Desember 2021, saya berhasil menyelesaikan HTML dan CSS Dasar di _The Odin Proje
 
 Dan akhirnya pelajaran __Responsive Web Design__ dari _Freecodecamp_ yang saya tinggalkan di akhir tahun 2017, bisa di selesaikan di awal tahun 2022.
 
-<img src="/img/posts/fcc-rwb.png" width="450" alt="sertifikat freecodecamp">
+<img src="/img/posts/fcc-rwb.png" width="300" alt="sertifikat freecodecamp">
 
 ## Apakah sulit untuk belajar coding?
 

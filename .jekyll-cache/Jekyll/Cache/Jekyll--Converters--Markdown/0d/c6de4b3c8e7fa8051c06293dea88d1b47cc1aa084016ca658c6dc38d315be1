@@ -1,4 +1,4 @@
-I"Ã <h1 id="cara-install-git-dan-github">Cara Install Git dan GitHub</h1>
+I"H!<h1 id="cara-install-git-dan-github">Cara Install Git dan GitHub</h1>
 <hr />
 
 <h2 id="cara-install-git-di-linux">Cara Install Git di Linux</h2>
@@ -139,13 +139,15 @@ Dan untuk menempel (paste) : CTRL+shift+C</p>
 
 <p>Kalo keluar hasil seperti gambar di bawah ini artinya kamu sudah berhasil</p>
 
-<p><img src="./img/post/ss-succeed.png" alt="ssh" /></p>
+<p><img src="/img/posts/ss-succeed.png" width="300" alt="contoh ssh berhasil terkoneksi" /></p>
+
+<p><img src="/img/post/ss-succeed.png" alt="contoh ssh berhasil terkoneksi" /></p>
 
 <p>Selamat, sekarang kamu sudah bisa menggunakan <a href="https://ariesan.github.io/perbedaan-git-dan-github/">Git dan GitHub</a> di komputer kamu !</p>
 
 <h2 id="catatan">Catatan</h2>
 
-<p>Untuk tutorial cara install Git, saya mengikuti tutorial dari [The Odin Project] (https://www.theodinproject.com/lessons/foundations-setting-up-git)</p>
+<p>Untuk tutorial cara install Git, saya mengikuti tutorial dari <a href="https://www.theodinproject.com/lessons/foundations-setting-up-git">The Odin Project</a></p>
 
 <p>Kenapa saya menggunakan The Odin Project?</p>
 

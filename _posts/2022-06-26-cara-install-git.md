@@ -167,14 +167,16 @@ ssh -T git@github.com
 
 Kalo keluar hasil seperti gambar di bawah ini artinya kamu sudah berhasil
 
-![ssh](./img/post/ss-succeed.png)
+<img src="/img/posts/ss-succeed.png" width="300" alt="contoh ssh berhasil terkoneksi">
+
+![contoh ssh berhasil terkoneksi](/img/post/ss-succeed.png)
 
 Selamat, sekarang kamu sudah bisa menggunakan [Git dan GitHub](https://ariesan.github.io/perbedaan-git-dan-github/) di komputer kamu !
 
 
 ## Catatan
 
-Untuk tutorial cara install Git, saya mengikuti tutorial dari [The Odin Project] (https://www.theodinproject.com/lessons/foundations-setting-up-git)
+Untuk tutorial cara install Git, saya mengikuti tutorial dari [The Odin Project](https://www.theodinproject.com/lessons/foundations-setting-up-git)
   
 Kenapa saya menggunakan The Odin Project?
   
