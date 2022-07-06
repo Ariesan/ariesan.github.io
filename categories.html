@@ -24,9 +24,10 @@ background: '/img/bg-tag.jpg'
     {% endfor %}
   </div>
   <br/>
-  <a class="btn btn-light" href="{{"/posts" | relative_url }}">blog</a>
+  <a class="btn btn-primary" href="{{'/' | relative_url }}">home</a>  
+  <a class="btn btn-light" href="{{'/posts' | relative_url }}">blog</a>
 
-  <a class="btn btn-primary" href="{{"/home" | relative_url }}">home</a>
+
 
 {% endfor %}
 </article>

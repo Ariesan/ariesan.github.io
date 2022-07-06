@@ -7,6 +7,7 @@ background: '/img/bg-post.jpg'
 {% for post in paginator.posts %}
 
 <article class="post-preview">
+  <img src="{{ post.background }}" class="card-img-top" alt="{{ post.title }}">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title }}</h2>
     {% if post.subtitle %}
@@ -28,6 +29,8 @@ background: '/img/bg-post.jpg'
 <hr>
 
 {% endfor %}
+
+{% include advertising.html %}
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}

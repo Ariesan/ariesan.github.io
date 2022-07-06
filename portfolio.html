@@ -1,5 +1,98 @@
 ---
 layout: page
-background: '/img/bg-index.png'
+background: '/img/portfolio.jpg'
 ---
 
+<div class="container"> 
+    <!-- <a href=""><h1>Hasil Belajar</h1></a>
+    <br /> -->
+    <div class="row">
+
+        <div class="card" style="width: 20rem; margin: 10px 20px;">
+            <a href="https://ariesan.github.io/random-quote-machine" target="_blank">
+                <img src="/img/portofolio/random-quote.png" class="card-img-top" alt="unit-conversion">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Kutipan untuk memotivasi kamu</h5>
+                <p class="card-text">Kumpulan kutipan yang dibuat secara acak, dengan tujuan membuat kamu lebih bersemangat untuk terus memperbaiki diri. </p>
+                <a href="https://ariesan.github.io/random-quote-machine" class="btn btn-primary btn-sm" style="margin-bottom: 10px;">Lihat</a>
+                <br />
+                <a href="https://github.com/Ariesan/random-quote-machine" class="btn btn-light btn-sm">Kode </a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 20rem; margin: 10px 20px;">
+            <a href="https://ariesan.github.io/conversionAPP/" target="_blank">
+                <img src="/img/portofolio/unit-conversion.png" class="card-img-top" alt="unit-conversion">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Alat untuk merubah Satuan</h5>
+                <p class="card-text">Menggunakan html5, CSS3, dan dibantu oleh Javascript, kamu bisa menghitung perbedaan satuan jarak, berat, dan volume</p>
+                <a href="https://ariesan.github.io/conversionAPP/" class="btn btn-primary btn-sm" style="margin-bottom: 10px;">Lihat</a>
+                <br />
+                <a href="https://github.com/Ariesan/conversionAPP" class="btn btn-light btn-sm">Kode </a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 20rem; margin: 10px 20px;">
+            <a href="">
+                <img src="/img/portofolio/unscool-guide.png" class="card-img-top" alt="website tentang unschooling">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Website Tentang Unschooling</h5>
+                <p class="card-text">Salah satu project yang saya buat untuk mendapatkan sertifikat dari Freecodecamp</p>
+                <a href="https://ariesan.github.io/unschooling-guide/" target="_blank" class="btn btn-primary btn-sm" style="margin-bottom: 10px;">Lihat</a>
+                <br />
+                <a href="https://github.com/Ariesan/unschooling-guide" target="_blank" class="btn btn-light btn-sm">Kode </a>
+            </div>
+        </div>
+    
+        <div class="card" style="width: 20rem; margin: 10px 20px;">
+        <a href="https://ariesan.github.io/password-generator/" target="_blank">
+            <img src="/img/portofolio/generate-random-password-web.png" class="card-img-top" alt="pembuat Password">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">Alat Pembuat Password</h5>
+            <p class="card-text">Dengan alat ini, kamu bisa membuat password yang kuat</p>
+            <a href="https://ariesan.github.io/password-generator/" target="_blank" class="btn btn-primary btn-sm" style="margin-bottom: 10px;">Lihat</a>
+            <br />
+            <a href="https://github.com/Ariesan/password-generator" class="btn btn-light btn-sm">Kode  </a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 20rem; margin: 10px 20px;">
+        <a href="https://ariesan.github.io/arnawi-farm/" target="_blank">
+            <img src="/img/portofolio/grid-website.png" class="card-img-top" alt="contoh Website Menggunakan CSS grid">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">Responsive Website dengan CSS Grid</h5>
+            <p class="card-text">Iseng-iseng bikin website responsive hanya dengan CSS Grid</p>
+            <a href="https://ariesan.github.io/arnawi-farm/" class="btn btn-primary btn-sm btn-block" style="margin-bottom: 10px;">Lihat langsung </a>
+            <a href="https://github.com/Ariesan/arnawi-farm/" class="btn btn-light btn-sm btn-block">Sumber Kode</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 20rem; margin: 10px 20px;">
+            <a href="https://ariesan.github.io/visitor_counter/" target="_blank">
+                <img src="/img/portofolio/visitor-counter.png" class="card-img-top" alt="aplikasi untuk menghitung orang yang masuk mall">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Alat untuk Menghitung</h5>
+                <p class="card-text">Alat yang bisa digunakan untuk menghitung orang yang masuk ke suatu tempat</p>
+                <a href="https://ariesan.github.io/visitor_counter/" target="_blank" class="btn btn-primary btn-sm btn-block" style="margin-bottom: 10px;">Lihat langsung</a>
+                <br />
+                <a href="https://github.com/Ariesan/visitor_counter" target="_blank" class="btn btn-light btn-sm btn-block">Sumber Kode </a>
+            </div>
+        </div>
+
+    </div>   
+
+</div>
+<br />
+
+<a class="btn btn-primary btn-block" href="{{'/' | relative_url }}">Kembali ke halaman awal</a>  
+<a class="btn btn-light btn-block" href="{{'/posts' | relative_url }}">Lihat blog</a>
+
+    {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+    {% endif %}
