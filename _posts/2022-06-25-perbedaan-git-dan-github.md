@@ -38,7 +38,7 @@ comments: true
   
   Kamu tidak perlu menggunakan GitHub untuk bisa menggunakan Git. Masih banyak alternatif lain pengganti GitHub, yang bisa digunakan untuk hosting program kamu, seperti : GitLab, BitBucket, Gogs, atau Gittea.  
   
-  Untuk menggunakan GitHub, kamu bisa menggunakan Terminal yang ada di komputer kamu atau Install GithGitHubub Desktop. 
+  Untuk menggunakan GitHub, kamu bisa menggunakan Terminal yang ada di komputer kamu atau Install GitHub Desktop. 
   
   
 
