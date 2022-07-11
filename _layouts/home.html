@@ -1,5 +1,6 @@
 ---
 layout: default
+background: '/img/blue-wp.jpg'
 ---
 
 <!-- Page Header -->
@@ -29,7 +30,7 @@ layout: default
 <!-- start Categories-->
 
 <div class="container"> 
-  <a href="/categories/"><h2 style="text-align: center; font-size: 3em;">Kategori</h2></a>
+  <a href="{{'/categories/' | relative_url}}"><h2 style="text-align: center; font-size: 3em;">Kategori</h2></a>
   <br />
   
   <div class="row">
@@ -48,7 +49,7 @@ layout: default
       <div class="card-body">
         <h5 class="card-title">Hasil Belajar</h5>
         <p class="card-text">Kumpulan Hasil Belajar Coding</p>
-        <a href="{{'/portfolio' | relative_url }}" class="btn btn-primary">Lihat</a>
+        <a href="{{'/page/portfolio' | relative_url }}" class="btn btn-primary">Lihat</a>
       </div>
     </div>
 
@@ -73,7 +74,7 @@ layout: default
   <hr class="my-4">
   <p> Di blog ini, saya akan menuliskan pengalaman belajar coding, tips bagaimana belajar sendiri bisa menyenangkan, dan motivasi saat malas mendera.</p>
   <p class="lead">
-    <a class="btn btn-primary btn-sm" href="/about.html" role="button">Tentang saya</a>
+    <a class="btn btn-primary btn-sm" href="/page/about.html" role="button">Tentang saya</a>
   </p>
 </div>
 
@@ -81,7 +82,7 @@ layout: default
 
 <br />
 
-<a href=""> <h3 style="text-align: center; font-size: 3em">Tulisan</h3> </a>
+<a href="{{'/posts' | relative_url }}"> <h3 style="text-align: center; font-size: 3em">Tulisan</h3> </a>
 <hr />
 
 <div class="container">
@@ -123,7 +124,7 @@ layout: default
 <br />
 
 <!-- Portfolio Carousel-->
-<a href="/portfolio.html"><h3 style="text-align: center; font-size: 3em">Portfolio</h2></a>
+<a href="/page/portfolio.html"><h3 style="text-align: center; font-size: 3em">Portfolio</h2></a>
   <br/>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
