@@ -13,7 +13,6 @@ background: '/img/blue-wp.png'
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <hr class="border-primary border-3 opacity-75"/>
-    <!-- <p>Another test, for i don't know what is this</p> -->
 
     <h4 class="post-meta">{{ category_name }}</h4>
     <a name="{{ category_name | slugize }}"></a>
@@ -24,8 +23,8 @@ background: '/img/blue-wp.png'
     {% endfor %}
   </div>
   <br/>
-  <a class="btn btn-primary" href="{{'/' | relative_url }}">home</a>  
-  <a class="btn btn-light" href="{{'/posts' | relative_url }}">blog</a>
+  <a class="btn btn-primary" href="{{'/' | relative_url }}">Halaman Awal</a>  
+  <a class="btn btn-light" href="{{'/posts' | relative_url }}">Blog</a>
 
 
 
