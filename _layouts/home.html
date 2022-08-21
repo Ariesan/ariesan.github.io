@@ -25,8 +25,6 @@ background: '/img/blue-wp.jpg'
   </header>
 </header>
 
-{% include advertising.html %}
-
 <!-- start Categories-->
 
 <div class="container"> 
@@ -113,7 +111,9 @@ background: '/img/blue-wp.jpg'
         </article>
         <hr>
         {% endfor %}
+        
         {% include advertising.html %}
+
         <!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{'/posts' | relative_url }}"> Lihat Blog &rarr;</a>
