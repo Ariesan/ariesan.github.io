@@ -1,6 +1,6 @@
 ---
 layout: default
-background: '/img/blue-wp.jpg'
+background: 
 ---
 
 <!-- Page Header -->
@@ -16,7 +16,7 @@ background: '/img/blue-wp.jpg'
           <div class="page-heading">
             <h1>{{ site.title }}</h1>
             {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
+            <span style="font-weight: bold" class="subheading">{{ site.description }}</span>
             {% endif %}
           </div>
         </div>
@@ -33,30 +33,30 @@ background: '/img/blue-wp.jpg'
   
   <div class="row">
 
-    <div class="card" style="width: 19rem; margin: 20px 30px;">
-      <img src="/img/belajar-coding.jpg" class="card-img-top" alt="emak belajar coding">
+    <div class="card" style="width: 19rem; margin: 20px 30px; border-radius: 50px;">
+      <img src="/img/undraw_proud_coder_re_exuy.svg" class="card-img-top" alt="emak belajar coding" style="border-radius: 10px 50px 0 0 ;">
       <div class="card-body">
         <h5 class="card-title">Belajar Coding</h5>
         <p class="card-text">Cerita si emak saat belajar coding</p>
-        <a href="{{'/categories/#Coding' | relative_url }}" class="btn btn-primary">Lihat</a>
+        <a href="{{'/categories/#Coding' | relative_url }}" class="btn btn-primary rounded-pill btn-block" >Lihat</a>
       </div>
     </div>
 
-    <div class="card" style="width: 19rem; margin: 20px 30px;">
-      <img src="/img/portfolio.jpg" class="card-img-top" alt="Hasil Belajar Coding">
+    <div class="card" style="width: 19rem; margin: 20px 30px; border-radius: 50px;">
+      <img src="/img/undraw_pair_programming_re_or4x.svg" class="card-img-top" alt="Hasil Belajar Coding" style="border-radius: 10px 50px 0 0 ;">
       <div class="card-body">
         <h5 class="card-title">Hasil Belajar</h5>
         <p class="card-text">Kumpulan Hasil Belajar Coding</p>
-        <a href="{{'/page/portfolio' | relative_url }}" class="btn btn-primary">Lihat</a>
+        <a href="{{'/page/portfolio' | relative_url }}" class="btn btn-primary rounded-pill btn-block">Lihat</a>
       </div>
     </div>
 
-    <div class="card" style="width: 19rem; margin: 20px 30px;">
-      <img src="/img/tips.jpg" class="card-img-top" alt="tips dan motivasi belajar coding">
+    <div class="card" style="width: 19rem; margin: 20px 30px; border-radius: 50px;" style="border-radius: 50px 10px 0 0 ;">
+      <img src="/img/undraw_software_engineer_re_tnjc.svg" class="card-img-top" alt="tips dan motivasi belajar coding">
       <div class="card-body">
         <h5 class="card-title">Tips & Motivasi</h5>
-        <p class="card-text">Bacaan untuk tetap semangat saat Belajar Online</p>
-        <a href="{{'/categories/#Tips' | relative_url }}" class="btn btn-primary">Lihat</a>
+        <p class="card-text">Semangat saat Belajar Online</p>
+        <a href="{{'/categories/#Tips' | relative_url }}" class="btn btn-primary rounded-pill btn-block">Lihat</a>
       </div>
     </div>
 
@@ -65,14 +65,14 @@ background: '/img/blue-wp.jpg'
 <br />
 
 <!-- about me section -->
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#333" fill-opacity="1" d="M0,160L60,149.3C120,139,240,117,360,122.7C480,128,600,160,720,181.3C840,203,960,213,1080,192C1200,171,1320,117,1380,90.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
 <div class="jumbotron" id="about" style="background-color: #333 ; color: #fff">
   <h1 class="display-4">Selamat Datang di Ariesan</h1>
   <p class="lead">Blog nya si emak yang sedang belajar Fullstack Developer</p>
-  <hr class="my-4">
+  <hr class="my-1">
   <p> Di blog ini, saya akan menuliskan pengalaman belajar coding, tips bagaimana belajar sendiri bisa menyenangkan, dan motivasi saat malas mendera.</p>
   <p class="lead">
-    <a class="btn btn-primary btn-sm" href="/page/about.html" role="button">Tentang saya</a>
+    <a class="btn btn-primary rounded-pill" href="/page/about.html" role="button">Tentang saya</a>
   </p>
 </div>
 
@@ -116,7 +116,7 @@ background: '/img/blue-wp.jpg'
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{'/posts' | relative_url }}"> Lihat Blog &rarr;</a>
+          <a class="btn btn-primary float-right rounded-pill" href="{{'/posts' | relative_url }}"> Lihat Blog &rarr;</a>
         </div>
       </div>
   </div>
@@ -138,8 +138,8 @@ background: '/img/blue-wp.jpg'
       <img class="d-block w-100" src="/img/portofolio/animaGram.png" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
         <div class="btn-group">
-          <a href="https://ariesan.github.io/animaGram/" target="_blank" class="btn btn-primary btn-sm">Lihat Langsung</a>
-          <a href="https://github.com/Ariesan/animaGram" target="_blank" class="btn btn-light btn-sm">Sumber Kode</a>
+          <a href="https://ariesan.github.io/animaGram/" target="_blank" class="btn btn-primary rounded-pill">Lihat Langsung</a>
+          <!-- <a href="https://github.com/Ariesan/animaGram" target="_blank" class="btn btn-light rounded-pill">Sumber Kode</a> -->
         </div>
       </div>
     </div>
@@ -148,8 +148,8 @@ background: '/img/blue-wp.jpg'
       <img class="d-block w-100" src="/img/portofolio/random-quote.png" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <div class="btn-group">
-          <a href="https://ariesan.github.io/random-quote-machine/" target="_blank" class="btn btn-primary btn-sm">Lihat Langsung</a>
-          <a href="https://github.com/Ariesan/random-quote-machine" target="_blank" class="btn btn-light btn-sm">Sumber Kode</a>
+          <a href="https://ariesan.github.io/random-quote-machine/" target="_blank" class="btn btn-primary rounded-pill">Lihat Langsung</a>
+          <!-- <a href="https://github.com/Ariesan/random-quote-machine" target="_blank" class="btn btn-light btn-sm">Sumber Kode</a> -->
         </div>
       </div>
     </div>
@@ -158,8 +158,8 @@ background: '/img/blue-wp.jpg'
       <img class="d-block w-100" src="/img/portofolio/contact-form.png" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
         <div class="btn-group">
-          <a href="https://ariesan.github.io/contact-form-26062022/" target="_blank" class="btn btn-primary btn-sm">Lihat Langsung</a>
-          <a href="https://github.com/Ariesan/contact-form-26062022" target="_blank" class="btn btn-light btn-sm">Sumber Kode</a>
+          <a href="https://ariesan.github.io/contact-form-26062022/" target="_blank" class="btn btn-primary rounded-pill">Lihat Langsung</a>
+          <!-- <a href="https://github.com/Ariesan/contact-form-26062022" target="_blank" class="btn btn-light btn-sm">Sumber Kode</a> -->
         </div>
       </div>
     </div>
